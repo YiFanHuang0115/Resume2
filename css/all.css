@@ -451,4 +451,33 @@ a {
   border-radius: 10px;
   
 }
+
+.community-menu {
+  top: 35%;
+  right: 0%;
+  z-index: 900;
+}
+
+.community-menu ul a {
+  display: block;
+  width: 38px;
+  height: 38px;
+  margin-bottom: 8px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.community-menu ul a:nth-child(1) {
+  background-image: url("../images/facebook-brands2.png");
+}
+
+.community-menu ul a:nth-child(2) {
+  background-image: url("../images/instagram-brands2.png");
+}
+
+.community-menu ul a:nth-child(3) {
+  background-image: url("../images/line-brands2.png");
+}
+
 /*# sourceMappingURL=all.css.map */
