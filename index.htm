@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/all.css" type="text/css">
+    <title> Resume </title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="section">
+            <!-- <h1 class="text-center mb-5">簡介</h1> -->
+            <div class="d-flex flex-column flex-xl-row justify-content-xl-center align-items-center align-items-xl-start">
+            <div class="photo_card mb-3  d-flex flex-column me-xl-5">
+                <div class="photo mb-2"></div>
+                <div class="mb-2 d-flex align-items-center"><a href="https://github.com/YiFanHuang0115"  target="_blank"><i class="fab fa-github fa-2x me-1"></i></a><a href="https://github.com/YiFanHuang0115" target="_blank"> GitHub</a></div>
+                <div class="d-flex"><i class="fas fa-map-marker-alt fa-2x "></i><spna class="ms-2 fs-5 fw-normal">Hsinchu, Hsinchu City, Taiwan</spna></div>
+            </div>
+            
+            <div class="person-info">
+                <h3 class="mb-2">黃 一 凡</h3>
+                <p>平靜、隨和，對程式抱有很大的熱情，樂於學習與解決問題，熱衷學習實用性高的新技術，不放棄任何⾃我成長的機會。</p>
+                <div class="d-flex align-items-center mb-2" style="font-size: 0.5rem;"><i class="fas fa-briefcase fa-3x "></i><spna class="ms-2 fs-5 fw-normal text-dark"></spna></div>
+                <div class="d-flex mb-2" ><i class="fas fa-map-marker-alt fa-2x"></i><spna class="ms-2 fs-5 fw-normal ">求職地點：新北市、桃園市、新竹縣 (台灣北部)</spna></div>
+                <div class="d-flex align-items-center" style="font-size: 0.5rem;"><i class="fas fa-envelope fa-3x"></i><spna class="ms-2 fs-5 fw-normal text-dark">E-mail：01236look@gmail.com</spna></div>
+            </div>
+            </div>
+        </div>
+        <div class="section">
+            <h1 class="mb-5">Skill</h1>
+            <div class="d-flex flex-column flex-xl-column justify-content-between align-items-center align-items-xl-start flex-xl-wrap">
+                <div class=""> <!-- 原為 <div class="skillList"> -->
+                    <h4>·IDE 操作(Arduino/PlatformIO)</h4>
+                    <!-- <ul class="mb-5 fs-5"> -->
+                        <!-- <li>使用 CSS3 製作動畫效果</li>
+                        <li>熟悉 SCSS 用法</li>
+                        <li>使用 Bootstrap 5 開發專案</li>
+                        <li>能依照設計稿手刻頁面版型</li>
+                        <li>建立 RWD 響應式網頁</li>
+                        <li>部署 GitHub Pages</li> -->
+                    <!-- </ul> -->
+                    
+                </div>
+                <div class="">  
+                    <h4>·周邊模組驅動(感測器、LCD、馬達等)</h4>
+                    <!-- <ul class="mb-5 fs-5"> -->
+                        <!-- <li>會使用 ES6 語言</li>
+                        <li>通過 AJAX / JSON 串接第三方 API</li>
+                        <li>使用 jQuery 做出網頁互動效果</li> -->
+                    <!-- </ul> -->
+                    <!-- <h4>PLC</h4>
+                    <ul class="mb-5 fs-5">
+                        <li>GX Works2 </li>
+                        <li>EU Editor </li>
+                        <li>EasyBuilder Pro </li>
+                    </ul> -->
+                </div>
+                <div class="">
+                    <h4>·範例程式修改與應用</h4>
+                    <!-- <ul class="mb-5 fs-5">
+                        <li>Git / Github </li>
+                    </ul>
+                    <h4>Design Tools</h4>
+                    <ul class="fs-5">
+                        <li>使用 Figma 製作草稿</li>
+                        <li>Photoshop 簡易圖片處理</li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="d-flex align-items-baseline"><h1 class="text-center mb-3 me-2">自傳</h1><button id="switch" class="border-0"><i class="fs-1 fas fa-chevron-circle-down"></i></button></div>
+            <div class="autobiography">
+                <p class="d-block">
+
+                【從化工到程式：發現技術熱忱的轉折】<br />
+您好，我是黃一凡。大學就讀明新科技大學化學工程系，期間因選修程式相關課程，發現自己對邏輯設計與程式語言的熱情遠超預期。儘管當時因時間因素選擇先完成化工學位，但這段經歷讓我確信——「解決問題的創造力」才是我的核心動力。
+
+畢業後，我開始自學程式語言（C/C++、C#），並在親友引薦下接觸工業自動化領域。透過對PLC（可程式邏輯控制器）的深入研究，我掌握了硬體控制的基本架構與即時系統思維，更在私人自動化工作室參與多個專案，從需求分析、電路配置到獨立完成PLC程式撰寫與調試，累積了完整的嵌入式系統實戰經驗。<br /><br />
+
+【自學轉型韌體開發：MCU的實作積累】<br />
+
+意識到自身對底層硬體控制的強烈興趣後，我將學習重心轉向微控制器（MCU）開發，並透過實際專案驗證能力：
+
+使用ESP32、Arduino系列MCU開發IoT設備控制韌體，整合感測器通訊（I2C/SPI）與無線傳輸模組（Wi-Fi/BLE）<br /><br />  
+
+【未來目標：深耕韌體技術】<br />
+過往的跨領域背景，讓我兼具化工的系統化分析力與自學程式的敏捷適應力。<br />
+現階段，我期望將實務經驗延伸至更核心的韌體開發領域，尤其在MCU底層驅動開發與即時系統優化持續深化。貴公司提供的職位與我的技術發展方向高度契合，期待能貢獻所學，共同打造高效穩定的嵌入式解決方案。
+                </p>
+            </div>
+            
+        </div>
+        <div class="section">
+            <h1 class="text-center mb-5">作品 及 專案</h1>
+            <div class="d-flex flex-column flex-xl-row justify-content-xl-between align-items-center">
+                <div class="animate__animated animate__bounceInLeft animate__delay-2s mb-5 mb-xl-3">
+                    <div class="animate__animated animate__flipInY animate__delay-2s">
+                        <a href="./proj/project01.htm" target="_blank" class="box">
+                            <img src="images/CleanShot 2025-06-30 at 07.45.19@2x.jpg"  alt="">
+                            <div class="text">
+                                <h2>第三代無線靶機</h2>
+                                <p>透過 C# 編寫操作介面系統，來控制雙軸靶機，
+                                    可登錄使用者的訊息資料，射擊成績儲存、輸出PDF、紙本</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="animate__animated animate__bounceInDown animate__delay-2s mb-5 mb-xl-3">
+                    <div class="animate__animated animate__flipInY animate__delay-2s">
+                        <a href="https://yifanhuang0115.github.io/Doyoga/" target="_blank" class="box">
+                            <img src="images/CleanShot 2025-06-30 at 07.47.05@2x.jpg"  alt="">
+                            <div class="text">
+                                <h2>墨夾清洗機構</h2>
+                                <p>一樣採 Bootstrap 框架寫的網頁，使用三個斷點，
+                                    分別是手機、平板、PC，是切板作業之一，按照設計稿切出所有頁面。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="animate__animated animate__bounceInRight animate__delay-2s mb-5 mb-xl-3">
+                    <div class="animate__animated animate__flipInY animate__delay-2s">
+                        <a href="#" class="box">
+                            <img src="images/CleanShot 2025-07-01 at 01.19.13.jpg" alt="">
+                            <div class="text">
+                                <h2>第二代LoRa靶機</h2>
+                                <p>採 Vue.js 及 Bootstrap 框架，是一個旅遊網站，
+                                    有景點介紹和結帳功能，先使用Figma畫出草稿，
+                                    再按稿切板，屬於自己設計的作品之一。</p>
+                            </div>
+                            <!-- <div class="alertSign">準備中</div> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="d-none d-flex flex-column flex-xl-row justify-content-xl-between align-items-center pt-5">    
+                <div class="animate__animated animate__bounceInRight animate__delay-2s">
+                    <div class="animate__animated animate__flipInY animate__delay-2s">
+                        <a href="#" class="box">
+                            <img src="images/vue_js.png" alt="">
+                            <div class="text">
+                                <h2>電動夾爪</h2>
+                                <p>採 Vue.js 及 Bootstrap 框架，是一個旅遊網站，有景點介紹和結帳功能，先使用Figma畫出草稿，再按稿切板，屬於自己設計的作品之一。</p>
+                            </div>
+                            <div class="alertSign">準備中</div>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="d-flex flex-column flex-xl-row justify-content-xl-between align-items-center mt-5">
+                <div class="animate__animated animate__bounceInLeft animate__delay-2s mb-5 mb-xl-3">
+                    <div class="animate__animated animate__flipInY animate__delay-2s">
+                        <a href="https://yifanhuang0115.github.io/Bootstrap/" target="_blank" class="box">
+                            <img src="images/IMG_7464.JPG"  alt="">
+                            <div class="text">
+                                <h2>第一代PLC靶機</h2>
+                                <p>採 Bootstrap 框架寫的網頁，雖然頁面不多，但內容使用不少 Bootstrap 的元件，是切板作業之一，按照設計稿切出所有頁面。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="animate__animated animate__bounceInDown animate__delay-2s mb-5 mb-xl-3">
+                    <div class="animate__animated animate__flipInY animate__delay-2s">
+                        <a href="https://yifanhuang0115.github.io/Doyoga/" target="_blank" class="box">
+                            <img src="images/CleanShot 2025-07-01 at 01.43.27.jpg"  alt="">
+                            <div class="text">
+                                <h2>電動夾爪</h2>
+                                <p>一樣採 Bootstrap 框架寫的網頁，使用三個斷點，
+                                    分別是手機、平板、PC，是切板作業之一，
+                                    按照設計稿切出所有頁面。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="animate__animated animate__bounceInRight animate__delay-2s mb-5 mb-xl-3">
+                    <div class="animate__animated animate__flipInY animate__delay-2s">
+                        <a href="#" class="box">
+                            <img src="images/CleanShot 2025-07-01 at 01.19.13.jpg" alt="">
+                            <div class="text">
+                                <h2>第二代LoRa靶機</h2>
+                                <p>採 Vue.js 及 Bootstrap 框架，是一個旅遊網站，有景點介紹和結帳功能，先使用Figma畫出草稿，再按稿切板，屬於自己設計的作品之一。</p>
+                            </div>
+                            <!-- <div class="alertSign">準備中</div> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-flex flex-column flex-xl-row justify-content-xl-between align-items-center pt-5">    
+                <div class="animate__animated animate__bounceInRight animate__delay-2s">
+                    <div class="animate__animated animate__flipInY animate__delay-2s">
+                        <a href="#" class="box">
+                            <img src="images/vue_js.png" alt="">
+                            <div class="text">
+                                <h2>旅遊網</h2>
+                                <p>採 Vue.js 及 Bootstrap 框架，是一個旅遊網站，有景點介紹和結帳功能，先使用Figma畫出草稿，再按稿切板，屬於自己設計的作品之一。</p>
+                            </div>
+                            <div class="alertSign">準備中</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="section">
+            <h1 class="text-center mb-5">PLC 參與專案</h1>
+            <div class="d-flex flex-column flex-xl-row justify-content-xl-between align-items-center">
+                <div class="animate__animated animate__bounceInLeft animate__delay-2s mb-5 mb-xl-3">
+                    <div class="animate__animated animate__flipInY animate__delay-2s">
+                        <a href="https://photos.app.goo.gl/bgnaEpYyqcf1fMVbA" target="_blank" class="box">
+                            <img src="images/Xnip2022-06-23_23-52-34.jpg"  alt="">
+                            <div class="text">
+                                <h2>粉沫式3D打印機</h2>
+                                <p>把拌好的藥粉倒入，機台會自動成型成藥錠，並上色，完成想要的藥定外觀，提昇生產效能。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="animate__animated animate__bounceInDown animate__delay-2s mb-5 mb-xl-3">
+                    <div class="animate__animated animate__flipInY animate__delay-2s">
+                        <a href="https://photos.app.goo.gl/11eu1an9hh4p7dxb9" target="_blank" class="box">
+                            <img src="images/Xnip2022-06-24_23-46-50.jpg"  alt="">
+                            <div class="text">
+                                <h2>迴焊輸送機</h2>
+                                <p>物料會從入回端送入烘烤區，溫度未達成，則會從右邊回送從新烤過，如溫度達到標準，則會輸送到左邊的成品區。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="animate__animated animate__bounceInDown animate__delay-2s mb-5 mb-xl-3">
+                    <div class="animate__animated animate__flipInY animate__delay-2s">
+                        <a href="https://photos.app.goo.gl/tReaQBHHoa4VAfQf7" target="_blank" class="box">
+                            <img src="images/Xnip2022-06-25_00-55-41.jpg"  alt="">
+                            <div class="text">
+                                <h2>協助配線</h2>
+                                <p>現場機台協助配線，穿線號、磁簧檢知</p>
+                                <P>的測試傳輸線製作。</P>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="section">
+            <h1 class="text-center mb-5">PLC 參與專案</h1>
+            <div class="d-flex flex-column flex-xl-row justify-content-xl-between align-items-center">
+                <div class="animate__animated animate__bounceInLeft animate__delay-2s mb-5 mb-xl-3">
+                    <div class="animate__animated animate__flipInY animate__delay-2s">
+                        <a href="#" class="box">
+                            <img src="images/Xnip2022-06-23_23-52-34.jpg"  alt="">
+                            <div class="text">
+                                <h2>粉沫式3D打印機</h2>
+                                <p>把拌好的藥粉倒入，機台會自動成型成藥錠，並上色，完成想要的藥定外觀。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+        </div> -->
+<!-- <div class="section">
+            <h1 >工作經歷</h1>
+            <ul class="timeline d-none d-xl-block">
+                <li>
+                    <button type="button">
+                        <h3>廚師助理 (2021/04~2021/10)</h3>
+                        <p title="南園 (2021/04~2021/10)" id="dialog_1" class="fs-3">『南園』</p>
+                    </button>
+                </li>
+                <li>
+                    <button type="button">
+                        <h3>助理工程師 (2013/02~2019/08)</h3>
+                        <p title="遠東新世紀 (2013/02~2019/08)" id="dialog_2" class="fs-3">『遠東新世紀』</p>
+                    </button>
+                </li>
+                <li>
+                    <button type="button">
+                        <h3>品保人員 (2012/01~2013/01)</h3>	
+                        <p title="達邁科技 (2012/01~2013/01)" id="dialog_3" class="fs-3">『達邁科技』</p>
+                    </button>
+                </li>
+                <li>
+                    <button type="button">
+                        <h3>服務員 (2007/03~2011/10)</h3>	
+                        <p title="純文書局 (2007/03~2011/10)" id="dialog_4" class="fs-3">『純文書局』</p>
+                    </button>
+                </li>
+            </ul>
+            <ul class="timeline2 d-block d-xl-none">
+                <li>
+                    <button type="button">
+                        <h3>廚師助理 (2021/04~2021/10)</h3>
+                        <p title="南園 (2021/04~2021/10)" id="dialog_5" class="fs-3">『南園』</p>
+                    </button>
+                </li>
+                <li>
+                    <button type="button">
+                        <h3>助理工程師 (2013/02~2019/08)</h3>
+                        <p title="遠東新世紀 (2013/02~2019/08)" id="dialog_6" class="fs-3">『遠東新世紀』</p>
+                    </button>
+                </li>
+                <li>
+                    <button type="button">
+                        <h3>品保人員 (2012/01~2013/01)</h3>	
+                        <p title="達邁科技 (2012/01~2013/01)" id="dialog_7" class="fs-3">『達邁科技』</p>
+                    </button>
+                </li>
+                <li>
+                    <button type="button">
+                        <h3>服務員 (2007/03~2011/10)</h3>	
+                        <p title="純文書局 (2007/03~2011/10)" id="dialog_8" class="fs-3">『純文書局』</p>
+                    </button>
+                </li>
+            </ul>
+        </div> -->
+        <script src='js/jquery.min.js'></script>
+        <script src='js/jquery-ui.min.js'></script>
+        <script src="js/all.js"></script>
+
+    </body>
+</html>
