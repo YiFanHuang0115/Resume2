@@ -31,7 +31,7 @@
 
 const arrswitch = document.querySelector('#switch');
 let classList = arrswitch.classList;
-let autobiography = document.querySelector(".autobiography p");
+let autobiography = document.querySelector(".autobiography h6");
 arrswitch.addEventListener('click', function(){
     const result = classList.toggle(0);
     if(result){
